@@ -1,0 +1,214 @@
+.project-card {
+  flex-direction: column;
+}
+
+.project-card,
+.project-title-box,
+.project-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.project-screen {
+  max-width: 70%;
+}
+
+.project-tech-box {
+  min-width: 100%;
+  margin-bottom: 15px;
+}
+
+.project-icon-box {
+  justify-content: space-around;
+  padding: 0px 5px;
+}
+
+.project-desc-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-desc-title {
+  margin-bottom: 0px;
+}
+
+.project-desc {
+  max-width: 80%;
+}
+
+/* ---------- Link Box Styling ------------------ */
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 15px 0;
+  padding: 15px 0px;
+  min-width: 100%;
+  transition: transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+}
+
+.project-link {
+  color: white;
+  display: block;
+  font-size: 15px;
+  height: 20px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  padding: 0 4px 4px 4px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 380px) {
+  .project-link {
+    font-size: 11px;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .project-link {
+    font-size: 20px;
+  }
+}
+
+.project-link:hover {
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+/* Animated Bottom Line */
+.project-link:before,
+.project-link:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -1px;
+  background: black;
+}
+
+.project-link:before {
+  left: 0;
+  transition: 0.5s;
+}
+
+.project-link:after {
+  background: black;
+  right: 0;
+}
+
+.project-link:hover:before {
+  background: black;
+  width: 100%;
+  transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+}
+
+.project-link:hover:after {
+  background: transparent;
+  width: 100%;
+}
+
+/* ----------------- Mana Project ------------------- */
+
+#mana-links {
+  background-color: #292929;
+}
+
+#mana-link:hover {
+  color: #9966cc;
+}
+
+#mana-desc-box {
+  background-color: #292929;
+}
+
+/* ----------------- Shelf-Life Project ------------------- */
+
+#shelf-links {
+  background-color: #102b3f;
+}
+
+#shelf-link:hover {
+  color: #6daad9;
+}
+
+#shelf-desc-box {
+  background-color: #102b3f;
+}
+
+/* ----------------- Spaced Repetition Project ------------------- */
+
+#spaced-title {
+  color: #94ecbe;
+}
+
+#spaced-links {
+  background-color: #1b2432;
+}
+
+#spaced-link:hover {
+  color: #ba274a;
+}
+
+#spaced-desc-box {
+  background-color: #1b2432;
+  color: #94ecbe;
+}
+
+/* ----------------- Petful Project ------------------- */
+
+#petful-title {
+  margin: 20px 8px 12px 0px;
+}
+
+#petful-links {
+  background-color: #252046;
+}
+
+#petful-link:hover {
+  color: #685aaf;
+}
+
+#petful-desc-box {
+  background-color: #252046;
+}
+
+/* ----------------- Icon styling ------------------- */
+
+.logo {
+  max-width: 12.5%;
+  max-height: 12.5%;
+}
+
+/* ----------------- Tools styling ------------------- */
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 100%;
+  padding: 15px 0px;
+  background-color: white;
+}
+
+.tool-box {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 100%;
+}

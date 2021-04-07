@@ -1,0 +1,42 @@
+.about-me-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+
+.about-title {
+  margin-bottom: 0;
+  color: black;
+}
+
+.about-me-text {
+  padding: 0px 15px 0 15px;
+  color: black;
+}
+
+.my-photo {
+  margin-top: 20px;
+  border: solid 2px #70a288;
+  border-radius: 400px;
+  max-width: 75%;
+}
+
+@media only screen and (min-width: 600px) {
+  .my-photo {
+    max-width: 40%;
+  }
+}
+
+.project-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #70a288;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.project-btn:hover {
+  background-color: black;
+}
