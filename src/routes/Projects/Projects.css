@@ -212,3 +212,7 @@
   justify-content: space-evenly;
   min-width: 100%;
 }
+
+.tools-title {
+    color: black;
+}
