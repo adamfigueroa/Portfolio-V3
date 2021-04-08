@@ -26,8 +26,9 @@ export const About = () => {
       </p>
       <p className="about-me-text">
         I am a Full-Stack Engineer who is competent in the use of HTML/CSS,
-        JavaScript, jQuery, React, Node.js, Express, PostgreSQL, and Git. I love
-        learning new languages and plan on learning a lot more in the future!
+        JavaScript, jQuery, React, Node.js, Express, PostgreSQL, and Git. I'm
+        currently looking forward to joining a closely knit team of problem
+        solvers!
       </p>
       <A href="/projects" className="project-btn">
         Check out my Projects!

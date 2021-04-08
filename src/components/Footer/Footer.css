@@ -28,7 +28,7 @@ footer {
   min-height: 75px;
 }
 
-.email-icon {
+.email-icon, .github-icon {
   max-width: 75px;
   max-height: 75px;
 }

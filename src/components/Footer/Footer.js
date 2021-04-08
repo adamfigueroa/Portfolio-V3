@@ -1,6 +1,6 @@
 import { A } from 'hookrouter';
 import React from 'react';
-import GHIcon from '../../images/Icons/github.svg';
+import GHIcon from '../../images/Icons/githubW.png';
 import LIcon from '../../images/Icons/linkedin.svg';
 import EIcon from '../../images/Icons/email.png';
 import './Footer.css';
@@ -13,7 +13,7 @@ function Footer() {
         <div className="contact-icons">
           <div className="github-box">
             <A href="https://github.com/adamfigueroa" target={'_blank'}>
-              <img src={GHIcon} alt="Github Icon" />
+              <img src={GHIcon} alt="Github Icon" className="github-icon" />
             </A>
           </div>
           <div className="linkedin-box">

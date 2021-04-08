@@ -20,7 +20,7 @@
 }
 
 .project-tech-box {
-  min-width: 100%;
+  max-width: 80%;
   margin-bottom: 15px;
 }
 
