@@ -9,7 +9,7 @@
 #user-email,
 #user-text {
   align-self: center;
-  width: 70%;
+  min-width: 50%;
   margin: 10px 0px;
 }
 
